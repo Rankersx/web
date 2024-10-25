@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(160deg, #0F172A, #1E293B); /* Fondo oscuro con azul y gris */
+    color: #E5E7EB; /* Gris claro para el texto principal */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0F172A; /* Azul muy oscuro */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #000000; /* Línea más marcada */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Título más grande */
+    color: #ea0808; /* Amarillo vibrante para el título */
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #E5E7EB; /* Gris claro para los enlaces */
+    font-size: 1.2rem; /* Enlaces más grandes */
+    transition: color 0.3s, transform 0.3s; /* Añadir efecto de transformación */
+}
+
+nav ul li a:hover {
+    color: #ea0808; /* Amarillo en hover */
+    transform: scale(1.1); /* Escalado al hacer hover */
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #0F172A; /* Azul oscuro para contenido */
+}
+
+h2 {
+    font-size: 1.5rem; /* Títulos secundarios más grandes */
+    color: #ea0808; /* Amarillo vibrante para títulos secundarios */
+}
+
+h3 {
+    font-size: 1.3rem; /* Títulos de tercer nivel más grandes */
+    color: #f55959; /* Amarillo vibrante para títulos secundarios */
+}
+h4 {
+    font-size : 2rem;
+    color: #0F172A;
+}
+p {
+    font-size: 1.1rem; /* Texto un poco más grande */
+    color: #E5E7EB; /* Gris claro para el texto */
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ea0808; /* Amarillo vibrante para enlaces */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #FFFFFF; /* Blanco al hacer hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0F172A; /* Azul muy oscuro */
+    border-top: 2px solid #1E40AF;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #ea0808; /* Amarillo vibrante para el texto del footer */
+    font-size: 1rem; /* Texto del footer más grande */
+}
